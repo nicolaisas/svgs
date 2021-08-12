@@ -1,25 +1,48 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Turning Gear</title>
-    <style>
-      .wrapper{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        height: 480px;
-        width:480px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <svg viewBox="0 0 24 24" width="800" height="800" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <style>@keyframes rotate-center{0%{transform:rotate(0)}to{transform:rotate(360deg)}}</style>
-        <path d="M10.884 3.55a1 1 0 011.786 0l.993 1.97a1 1 0 001.206.5l2.094-.692a1 1 0 011.263 1.263l-.69 2.095a1 1 0 00.499 1.206l1.97.992a1 1 0 010 1.786l-1.97.993a1 1 0 00-.5 1.206l.691 2.094a1 1 0 01-1.263 1.263l-2.094-.69a1 1 0 00-1.206.499l-.993 1.97a1 1 0 01-1.786 0l-.992-1.97a1 1 0 00-1.206-.5l-2.095.691a1 1 0 01-1.263-1.263l.691-2.094a1 1 0 00-.5-1.206L3.55 12.67a1 1 0 010-1.786l1.97-.992a1 1 0 00.5-1.206L5.327 6.59A1 1 0 016.59 5.327l2.095.691a1 1 0 001.206-.5l.992-1.969z" fill="#242424" style="animation:rotate-center 4s cubic-bezier(.44,.48,.44,.49) infinite;transform-origin:center center"></path><path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        </path>
-      </svg>
-    </div>
-  </body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg style="background-color:white" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="100%" viewBox="0 0 200 200" xml:space="preserve">
+<style type="text/css">
+
+	@keyframes rotateOnce{
+		to {transform: rotate(360deg); filter: hue-rotate(360deg) blur(5px);stroke-dashoffset: 0;;}
+	}
+	
+	svg:hover .st0{
+		animation-name: rotateOnce;
+		transform-origin: center;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-fill-mode: backwards;
+		stroke-dasharray: 500;
+ 		stroke-dashoffset: 500;
+	}
+
+	.st0{
+		fill: none;
+		stroke: #000000;
+		stroke-width:10;
+		stroke-miterlimit:10;
+	}
+	.st1{
+		fill: none;
+		stroke:hsl(0,100%,50%);
+		stroke-width:10;
+		stroke-linejoin:round;
+		stroke-miterlimit:10;
+		animation-name: rotateOnce;
+		transform-origin: center;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-direction: reverse;
+		animation-timing-function: linear;
+		stroke-dasharray: 300;
+ 		stroke-dashoffset: 300;
+	}
+</style>
+
+<path id="two" class="st0" d="M100,11.4c-48.9,0-88.6,39.6-88.6,88.6c0,48.9,39.6,88.6,88.6,88.6s88.6-39.6,88.6-88.6"/>
+<path id="one" class="st1" d="M100,38.7c-33.8,0-61.3,27.4-61.3,61.3c0,33.8,27.4,61.3,61.3,61.3s61.3-27.4,61.3-61.3"/>
+
+</svg>
